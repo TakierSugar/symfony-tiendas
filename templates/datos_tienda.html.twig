@@ -1,0 +1,8 @@
+<ul>
+    <li><strong>{{ tienda.nombre }}</strong></li>
+    <li><strong>Teléfono</strong>: {{ tienda.telefono }}</li>
+    {% if tienda.empresa %}
+    <li><strong>Empresa: </strong>{{tienda.empresa.nombre}}</li>
+    {% endif %}
+    <li><strong>Lugar</strong>: {{ tienda.lugar }}</li>
+</ul>

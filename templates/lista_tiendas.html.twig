@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block title %}Tiendas{% endblock %}
+{% block body %}
+    <h1>Listado de tiendas</h1>
+    {% if tiendas %}
+        {% for tienda in tiendas %}
+        {{ include ('datos_tienda.html.twig', {'tienda': tienda }) }}
+        {% endfor %}
+    {% else %}
+        <p>No se han encontrado tiendas</p>
+    {% endif %}
+{% endblock %}

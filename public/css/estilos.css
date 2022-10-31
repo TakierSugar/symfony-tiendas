@@ -1,0 +1,12 @@
+body
+{
+    background-color: #97fb9a;
+    width: 40%;
+}
+h1,ul
+{
+    border: 3px solid rgba(0, 0, 0, 0.535);
+    padding: 2%;
+    padding-left: 30%;
+    
+}
